@@ -2,7 +2,7 @@ body {
     background-color: #f8f9fa;
     color: #212529;
     transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 60px; /* Adicione uma margem para o footer não sobrepor o conteúdo */
+    margin-bottom: 60px;
 }
 
 .navbar {
@@ -53,3 +53,22 @@ body {
 #logo{
     width: 30px;
 }
+.form-switch {
+    margin-left: auto; /* Alinha a checkbox "Dark Mode" à direita */
+  }
+  
+  .navbar-nav {
+    margin: 0 auto; /* Centraliza os elementos da navbar */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Adiciona espaçamento entre os itens da navbar */
+  }
+  
+  .row{
+    margin-top: 100px;
+
+  }
