@@ -5,18 +5,31 @@ body {
     margin-bottom: 60px;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4c006a;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #17009c5c;
+  }
+  
 .navbar {
     background-color: #ffffff;
     transition: background-color 0.3s;
 }
 
 .footer {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  transition: background-color 0.3s, color 0.3s;
+  bottom: 0;
+  
 }
 
 .dark-mode {
@@ -69,6 +82,18 @@ body {
   }
   
   .row{
-    margin-top: 100px;
-
+    margin: 100px;
   }
+  body.dark-mode #logo {
+    /* Adicione estilos específicos para o modo escuro aqui */
+    filter: invert(1); /* Exemplo: inverte as cores para simular um modo escuro */
+  }
+  @media (max-width: 1400px) {
+    .navbar-nav {
+      margin-right: 0 !important; /* Remove a margem direita quando a largura da tela for maior ou igual a 1400px */
+    }
+  }
+  .thicker-hr {
+    border-top: 3px solid white;
+  }
+  
