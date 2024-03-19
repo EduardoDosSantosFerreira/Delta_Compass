@@ -1,24 +1,19 @@
-body {
-    background-color: #f8f9fa;
-    color: #212529;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 60px;
+::-webkit-scrollbar {
+  width: 12px;
 }
 
-::-webkit-scrollbar {
-    width: 12px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #4c006a;
-    border-radius: 0px;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: #17009c5c;
-  }
-  
+::-webkit-scrollbar-thumb {
+  background: #2E2BC2;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #17009c5c;
+}
+
 .navbar {
-    background-color: #ffffff;
-    transition: background-color 0.3s;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
 }
 
 .footer {
@@ -81,13 +76,15 @@ body {
     margin: 0 10px; /* Adiciona espaçamento entre os itens da navbar */
   }
   
-  .row{
+  #row01{
     margin: 100px;
   }
-  body.dark-mode #logo {
+  body.dark-mode #logo,
+  body.dark-mode #fticon {
     /* Adicione estilos específicos para o modo escuro aqui */
     filter: invert(1); /* Exemplo: inverte as cores para simular um modo escuro */
   }
+  
   @media (max-width: 1400px) {
     .navbar-nav {
       margin-right: 0 !important; /* Remove a margem direita quando a largura da tela for maior ou igual a 1400px */
@@ -95,5 +92,20 @@ body {
   }
   .thicker-hr {
     border-top: 3px solid white;
+  }
+  #fticon{
+    margin: 10px;
+  }
+  .list-inline-item a {
+    color: white; /* Definir a cor dos links como branco */
+    text-decoration: none; /* Remover sublinhado dos links */
+    padding-right: 10px; /* Adicionar um espaçamento à direita para separá-los */
+  }
+  .list-inline-item {
+    list-style-type: disc; /* Adicionar um ponto para cada item da lista */
+    color: white; /* Definir a cor dos pontos como branco */
+  }
+  .dark-mode .list-inline-item a {
+    color: black; /* Definir a cor dos links como preto no modo escuro */
   }
   
