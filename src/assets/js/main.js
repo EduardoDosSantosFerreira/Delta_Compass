@@ -9,3 +9,4 @@ function toggleDarkMode() {
     document.body.classList.toggle('dark-mode', darkModeSwitch.checked);
   }
 // Dark Mode End
+
