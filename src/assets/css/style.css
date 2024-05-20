@@ -4,12 +4,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8b2bc2;
+  background-color: #17009c5c;
   border-radius: 0px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #5e009c5c;
+  background-color: #17009c5c;
 }
 /* scrollbar */
 
@@ -167,8 +167,8 @@ body.dark-mode #fticon {
 }
 
 #download-btn {
-  background-color: #8a2be2; /* Cor roxa */
-  border-color: #8a2be2; /* Cor da borda roxa */
+  background-color: #2E2BC2; /* Cor roxa */
+  border-color: #2E2BC2; /* Cor da borda roxa */
   color: #ffff;
   border-radius: 20px; /* Ajusta o arredondamento das bordas */
   width: 200px; /* Aumenta a largura do botão */
@@ -177,8 +177,8 @@ body.dark-mode #fticon {
 
 #version-btn {
   background-color: inherit; /* Agora o botão herda a cor de fundo do body */
-  border-color: #8a2be2; /* Cor da borda roxa */
-  color: #8a2be2; /* Cor das letras roxa */
+  border-color: #2E2BC2; /* Cor da borda roxa */
+  color: #2E2BC2; /* Cor das letras roxa */
   border-radius: 20px; /* Ajusta o arredondamento das bordas */
   width: 200px; /* Aumenta a largura do botão */
   height: 50px; /* Aumenta a altura do botão */
