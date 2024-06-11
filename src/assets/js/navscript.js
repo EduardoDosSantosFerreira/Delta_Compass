@@ -26,6 +26,16 @@ function adicionarLoginAoDOM() {
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('pt')">Português</a></li>
+            <li><a class="dropdown-item" href="#" onclick="changeLanguage('es')">Español</a></li>
+          </ul>
+        </li>
       </ul>
       <div class="form-check form-switch align-self-center mt-12">
         <input class="form-check-input" type="checkbox" id="darkModeSwitch" />
