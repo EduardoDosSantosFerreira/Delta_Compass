@@ -17,7 +17,8 @@ function adicionarMainAoDOM() {
         <button id="version-btn" class="btn btn-lg btn-block custom-btn">Other version</button>
       </div>
     </div>
-    <br />
+    <br>
+    <br>
     <div id="row02" class="row">
       <div class="col-md-6 order-md-2">
         <img id="home-img-2" src="src/assets/img/5241291-removebg-preview.png" alt="Placeholder Image" class="img-fluid"

@@ -85,6 +85,11 @@ p {
 
 #row01 {
   margin-top: 100px;
+  padding-bottom: 150px;
+}
+#row03 {
+  margin-top: 100px;
+  padding-bottom: 150px;
 }
 body.dark-mode #logo,
 body.dark-mode #fticon {
