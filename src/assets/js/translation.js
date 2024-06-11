@@ -67,3 +67,4 @@ function addLanguageChangeFunctionality() {
   
   addLanguageChangeFunctionality();
   
+  

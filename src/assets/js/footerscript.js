@@ -17,7 +17,7 @@ function adicionarLoginAoDOM() {
             <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Support</a></li>
               <li class="list-inline-item"><a href="#">FAQS</a></li>
-              <li class="list-inline-item"><a href="#">Contact Us</a></li>
+              <li class="list-inline-item"><a href="#">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +46,7 @@ function adicionarLoginAoDOM() {
           </div>
         </div>
         <div class="col-md-6 text-center text-md-right">
-          <p>&copy; 2024 Delta Compass. Todos os direitos reservados.</p>
+          <p>&copy; 2024 Delta Compass. All rights reserved.</p>
         </div>
       </div>
   </footer>
