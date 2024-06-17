@@ -1,5 +1,7 @@
 # Delta Compass Project 🇺🇸
 
+![Delta_White](/src/assets/img/Delta%20Wallpaper.png)
+
 **Delta Compass** is an innovative project created to meet the needs of professional gamers. It offers a practical and efficient solution for managing game settings, allowing players to customize and adapt their settings quickly and easily.
 
 With Delta Compass, players can save their favorite settings and apply them to different games, eliminating the need to reconfigure each game individually. This saves time and effort, allowing players to focus on what really matters: playing.
@@ -9,6 +11,9 @@ Additionally, Delta Compass offers players the opportunity to explore and utiliz
 In short, Delta Compass is an indispensable tool for any professional gamer who wants to optimize their gaming experience and reach their full potential.
 
 # Projeto Delta Compass 🇧🇷
+
+![Delta_White](/src/assets/img/Dark_Wallpaper.png)
+
 
 O **Delta Compass** é um projeto inovador criado para atender às necessidades do público gamer profissional. Ele oferece uma solução prática e eficiente para a gestão de configurações de jogos, permitindo que os jogadores personalizem e adaptem suas configurações de forma rápida e fácil.
 
