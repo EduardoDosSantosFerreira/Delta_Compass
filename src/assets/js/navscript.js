@@ -15,13 +15,13 @@ function adicionarNavbarAoDOM() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav" style="margin-right: -650px;">
           <li class="nav-item">
-            <a class="nav-link" href="#">Patreon</a>
+            <a class="nav-link" href="http://patreon.com/DeltaCompass">Patreon</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
+            <a class="nav-link" href="https://github.com/kFerSol/DeltaCompassWPF">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Discord</a>
+            <a class="nav-link" href="https://discord.gg/eQuXfxE6XZ">Discord</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>

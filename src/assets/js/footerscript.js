@@ -38,10 +38,9 @@ function adicionarLoginAoDOM() {
           <div class="social">
             <h4 id="titleftr"> Social</h4>
             <ul>
-              <a href="#" id="linksftr"><img src="src/assets/img/instagram.png" id="fticon" alt="instagram"></a>
               <a href="#" id="linksftr"><img src="src/assets/img/facebook.png" id="fticon" alt="facebook"></i></a>
               <a href="#" id="linksftr"><img src="src/assets/img/twitter.png" id="fticon" alt="X"></i></a>
-              <a href="#" id="linksftr"><img src="src/assets/img/github.png" id="fticon" alt="Github"></i></a>
+              <a href="https://github.com/kFerSol/DeltaCompassWPF" id="linksftr"><img src="src/assets/img/github.png" id="fticon" alt="Github"></i></a>
             </ul>
           </div>
         </div>

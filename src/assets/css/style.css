@@ -11,6 +11,7 @@
 ::-webkit-scrollbar-track {
   background-color: #17009c5c;
 }
+
 /* scrollbar */
 
 /* navbar */
@@ -18,17 +19,21 @@
   background-color: #ffffff;
   transition: background-color 0.3s;
 }
+
 .navbar-nav {
-  margin: 0 auto; /* Centraliza os elementos da navbar */
+  margin: 0 auto;
+  /* Centraliza os elementos da navbar */
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
 }
 
 .nav-item {
-  margin: 0 10px; /* Adiciona espaçamento entre os itens da navbar */
+  margin: 0 10px;
+  /* Adiciona espaçamento entre os itens da navbar */
   font-weight: 550;
 }
+
 /* navbar */
 
 /* footer */
@@ -41,6 +46,7 @@
   transition: background-color 0.3s, color 0.3s;
   bottom: 0;
 }
+
 /* footer */
 
 /* darkmode */
@@ -74,97 +80,151 @@ p {
 .dark-mode .navbar-toggler-icon {
   filter: invert(1);
 }
+
 .form-switch {
-  margin-left: auto; /* Alinha a checkbox "Dark Mode" à direita */
+  margin-left: auto;
+  /* Alinha a checkbox "Dark Mode" à direita */
 }
+
 /* darkmode */
 
 #logo {
-  width: 30px; /* logo do site */
+  width: 30px;
+  /* logo do site */
 }
 
 #row01 {
   margin-top: 100px;
   padding-bottom: 150px;
 }
+
 #row03 {
   margin-top: 100px;
   padding-bottom: 150px;
 }
+
+@media (max-width: 1500px) {
+  #row04{
+    padding-bottom: 130px;
+  }
+}
+
 body.dark-mode #logo,
 body.dark-mode #fticon {
   /* Adicione estilos específicos para o modo escuro aqui */
-  filter: invert(1); /* Exemplo: inverte as cores para simular um modo escuro */
+  filter: invert(1);
+  /* Exemplo: inverte as cores para simular um modo escuro */
 }
 
 @media (max-width: 1400px) {
   .navbar-nav {
-    margin-right: 0 !important; /* Remove a margem direita quando a largura da tela for maior ou igual a 1400px */
+    margin-right: 0 !important;
+    /* Remove a margem direita quando a largura da tela for maior ou igual a 1400px */
   }
 }
+
 .thicker-hr {
   border-top: 3px solid white;
 }
+
 .list-inline-item a {
-  color: white; /* Definir a cor dos links como branco */
-  text-decoration: none; /* Remover sublinhado dos links */
-  padding-right: 10px; /* Adicionar um espaçamento à direita para separá-los */
+  color: white;
+  /* Definir a cor dos links como branco */
+  text-decoration: none;
+  /* Remover sublinhado dos links */
+  padding-right: 10px;
+  /* Adicionar um espaçamento à direita para separá-los */
 }
+
 .list-inline-item {
-  list-style-type: disc; /* Adicionar um ponto para cada item da lista */
-  color: white; /* Definir a cor dos pontos como branco */
+  list-style-type: disc;
+  /* Adicionar um ponto para cada item da lista */
+  color: white;
+  /* Definir a cor dos pontos como branco */
 }
+
 .dark-mode .list-inline-item a {
-  color: black; /* Definir a cor dos links como preto no modo escuro */
+  color: black;
+  /* Definir a cor dos links como preto no modo escuro */
 }
+
 .list-inline-item a {
-  color: white; /* Definir a cor dos links como branco */
-  text-decoration: none; /* Remover sublinhado dos links */
-  padding-right: 10px; /* Adicionar um espaçamento à direita para separá-los */
+  color: white;
+  /* Definir a cor dos links como branco */
+  text-decoration: none;
+  /* Remover sublinhado dos links */
+  padding-right: 10px;
+  /* Adicionar um espaçamento à direita para separá-los */
   font-size: large;
 }
+
 .list-inline-item {
-  list-style-type: none; /* Remover os pontos padrão */
+  list-style-type: none;
+  /* Remover os pontos padrão */
 }
+
 .list-inline-item:before {
-  content: "\2022"; /* Adicionar um caractere de bolinha */
-  color: white; /* Definir a cor da bolinha como branco */
+  content: "\2022";
+  /* Adicionar um caractere de bolinha */
+  color: white;
+  /* Definir a cor da bolinha como branco */
   display: inline-block;
-  width: 1em; /* Largura da bolinha */
-  font-size: 1.5em; /* Tamanho da bolinha */
+  width: 1em;
+  /* Largura da bolinha */
+  font-size: 1.5em;
+  /* Tamanho da bolinha */
 }
+
 /* btns */
 .custom-btn {
   transition: all 0.3s ease;
 }
+
 .custom-btn:hover {
   transform: scale(1.05);
 }
+
 #download-btn {
-  background-color: #8a2be2; /* Cor roxa */
-  border-color: #8a2be2; /* Cor da borda roxa */
+  background-color: #8a2be2;
+  /* Cor roxa */
+  border-color: #8a2be2;
+  /* Cor da borda roxa */
   color: #ffff;
-  border-radius: 20px; /* Ajusta o arredondamento das bordas */
+  border-radius: 20px;
+  /* Ajusta o arredondamento das bordas */
   width: 180px;
 }
+
 #version-btn {
-  background-color: #ffffff; /* Cor branca */
-  border-color: #8a2be2; /* Cor da borda roxa */
-  color: #8a2be2; /* Cor das letras roxa */
-  border-radius: 20px; /* Ajusta o arredondamento das bordas */
+  background-color: #ffffff;
+  /* Cor branca */
+  border-color: #8a2be2;
+  /* Cor da borda roxa */
+  color: #8a2be2;
+  /* Cor das letras roxa */
+  border-radius: 20px;
+  /* Ajusta o arredondamento das bordas */
 }
+
 #version-btn:hover {
-  color: #a77fbb; /* Cor das letras alterada no hover */
-  border-color: #a77fbb; /* Cor da borda roxa */
+  color: #a77fbb;
+  /* Cor das letras alterada no hover */
+  border-color: #a77fbb;
+  /* Cor da borda roxa */
 }
+
 #download-btn:hover {
-  background-color: #513dad; /* Cor roxa */
-  border-color: #513dad; /* Cor da borda roxa */
+  background-color: #513dad;
+  /* Cor roxa */
+  border-color: #513dad;
+  /* Cor da borda roxa */
 }
+
 /* btns */
 .custom-btn {
   transition: all 0.3s ease;
-  margin: 10px; /* Adiciona uma margem entre os botões */
+  margin: 10px;
+  /* Adiciona uma margem entre os botões */
 }
 
 .custom-btn:hover {
@@ -172,31 +232,46 @@ body.dark-mode #fticon {
 }
 
 #download-btn {
-  background-color: #2E2BC2; /* Cor roxa */
-  border-color: #2E2BC2; /* Cor da borda roxa */
+  background-color: #2E2BC2;
+  /* Cor roxa */
+  border-color: #2E2BC2;
+  /* Cor da borda roxa */
   color: #ffff;
-  border-radius: 20px; /* Ajusta o arredondamento das bordas */
-  width: 200px; /* Aumenta a largura do botão */
-  height: 50px; /* Aumenta a altura do botão */
+  border-radius: 20px;
+  /* Ajusta o arredondamento das bordas */
+  width: 200px;
+  /* Aumenta a largura do botão */
+  height: 50px;
+  /* Aumenta a altura do botão */
 }
 
 #version-btn {
-  background-color: inherit; /* Agora o botão herda a cor de fundo do body */
-  border-color: #2E2BC2; /* Cor da borda roxa */
-  color: #2E2BC2; /* Cor das letras roxa */
-  border-radius: 20px; /* Ajusta o arredondamento das bordas */
-  width: 200px; /* Aumenta a largura do botão */
-  height: 50px; /* Aumenta a altura do botão */
+  background-color: inherit;
+  /* Agora o botão herda a cor de fundo do body */
+  border-color: #2E2BC2;
+  /* Cor da borda roxa */
+  color: #2E2BC2;
+  /* Cor das letras roxa */
+  border-radius: 20px;
+  /* Ajusta o arredondamento das bordas */
+  width: 200px;
+  /* Aumenta a largura do botão */
+  height: 50px;
+  /* Aumenta a altura do botão */
 }
 
 #version-btn:hover {
-  color: #a77fbb; /* Cor das letras alterada no hover */
-  border-color: #a77fbb; /* Cor da borda roxa */
+  color: #a77fbb;
+  /* Cor das letras alterada no hover */
+  border-color: #a77fbb;
+  /* Cor da borda roxa */
 }
 
 #download-btn:hover {
-  background-color: #513dad; /* Cor roxa */
-  border-color: #513dad; /* Cor da borda roxa */
+  background-color: #513dad;
+  /* Cor roxa */
+  border-color: #513dad;
+  /* Cor da borda roxa */
 }
 
 /* btns */
